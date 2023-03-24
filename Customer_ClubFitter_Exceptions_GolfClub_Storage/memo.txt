@@ -1,0 +1,14 @@
+In my opinion, this project can be improved if...
+
+1. Shafts and grips can be objects
+
+ex) class Shaft:
+        def __init__(self, name, flex, length):...
+
+    class Grip:
+        def __init__(self, name, thickness, color):...
+
+
+2. Methods 'option_1' and 'option_2' has almost same structure (not efficient). However, the parameter is different, so I divide into two different methods.
+
+3. Comments are long and should be clearly explained (other programmers might be confused if my comments are too long).
